@@ -8,12 +8,12 @@
 
 stdenv.mkDerivation rec {
   pname = "ta-lib";
-  version = "0.4.0";
+  version = "0.6.3";
   src = fetchFromGitHub {
-    owner = "rafa-dot-el";
-    repo = "talib";
-    rev = version;
-    sha256 = "sha256-bIzN8f9ZiOLaVzGAXcZUHUh/v9z1U+zY+MnyjJr1lSw=";
+    owner = "ta-lib";
+    repo = "ta-lib";
+    rev = "v0.6.3";
+    sha256 = "sha256-/dBMrZH30htqHcQjMH3x++t/Ktn9P9WKH3OvXFbDDTI=";
   };
 
   nativeBuildInputs = [
